@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Добавьте свои стили */
+}
+
+.logo {
+  /* Стили для логотипа */
+}
+
+.navigation {
+  /* Стили для навигации */
+}
+
+.registerButton {
+  /* Стили для кнопки регистрации */
+}
