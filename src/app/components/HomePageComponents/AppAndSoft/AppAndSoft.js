@@ -1,5 +1,5 @@
 import Block from "../../Block/Block";
-import Button from "../../Button/Button";
+import Button from "../../Button/Button.client";
 
 export default function AppAndSoft() {
   return (
