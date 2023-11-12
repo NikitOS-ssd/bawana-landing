@@ -1,7 +1,9 @@
+'use client'
+
 import React from 'react';
 import styles from './Button.module.css';
 
-const Button = ({ handler, size, children }) => {
+const Button = ({ onClick, size, children }) => {
   const getSizeClass = (size) => {
     switch (size) {
       case 'small':
@@ -17,7 +19,7 @@ const Button = ({ handler, size, children }) => {
 
   return (
     <button
-      onClick={handler}
+      onClick={onClick}
       className={`${styles.button} ${getSizeClass(size)}`}
     >
       {children}
