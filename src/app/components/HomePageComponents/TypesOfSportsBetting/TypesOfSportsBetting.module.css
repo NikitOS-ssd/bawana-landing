@@ -1,0 +1,14 @@
+.card {
+  margin: 10px 15px;
+}
+.card_title {
+  font-size: 1.1rem; /* 17.6px if base is 16px */
+  text-align: center;
+  margin-bottom: 0.5rem; /* or whatever value you prefer */
+}
+
+.card_content {
+  font-size: 15px;
+  text-align: justify;
+  /* Add other styles you need for the content */
+}
