@@ -27,7 +27,7 @@ export default function AppAndSoft() {
       </p>
 
       <p className="mb-6 text-gray-800">
-        Windows system requirements: Windows XP or Vista, Windows 7, 8, 10 (for 1xWin), Windows 7, 8, 10 (for 1xbet Access). (Older computer versions are not supported).
+        Windows system requirements: Windows XP or Vista, Windows 7, 8, 10 (for 1xWin), Windows 7, 8, 10 (for Bwanabet Access). (Older computer versions are not supported).
         <br />
         <br />
         No download app for macOS.

@@ -8,9 +8,9 @@ export default function TypesOfSportsBetting() {
       title={'Bwanabet Website Types of Sports Betting'}
     >
       <p className="mb-6 text-gray-800">
-        At 1xbet you can bet on all official sports tournaments and matches.
-        In this case, an important advantage is the constant bonuses from 1xbet, as well as the ability to watch LIVE broadcasts for free.
-        The fact that you can make bets of several types is also pleasing. We will briefly tell you about the most popular sports disciplines among Indian users, on which you can bet on 1xbet
+        At Bwanabet you can bet on all official sports tournaments and matches.
+        In this case, an important advantage is the constant bonuses from Bwanabet, as well as the ability to watch LIVE broadcasts for free.
+        The fact that you can make bets of several types is also pleasing. We will briefly tell you about the most popular sports disciplines among Indian users, on which you can bet on Bwanabet
       </p>
       <div className="bg-white shadow-lg rounded-lg p-8 mb-8">
         {/* <h2 className="text-xl font-semibold mb-8 text-gray-800">Welcome Bonus Up</h2> */}
@@ -26,13 +26,13 @@ export default function TypesOfSportsBetting() {
           <div className={`${styles.card}`}>
             <h3 className={`${styles.card_title} text-lg font-semibold mb-2`}>Volleyball</h3>
             <p className={`${styles.card_content}`}>
-              In the middle of the volleyball court stretched a net. Teams are placed on both sides of the field and their task is to throw the ball to the opponent’s side in such a way that the opponent cannot deflect it. 1xbet will offer you many options for betting on this discipline in LINE and LIVE.
+              In the middle of the volleyball court stretched a net. Teams are placed on both sides of the field and their task is to throw the ball to the opponent’s side in such a way that the opponent cannot deflect it. Bwanabet will offer you many options for betting on this discipline in LINE and LIVE.
             </p>
           </div>
           <div className={`${styles.card}`}>
             <h3 className={`${styles.card_title} text-lg font-semibold mb-2`}>Football</h3>
             <p className={`${styles.card_content}`}>
-              Popular worldwide team game with a ball and goal. Teams of 11 players must score the most goals against their opponents to win. At 1xbet all soccer tournaments are available for your betting. You will be able to watch LIVE Broadcasts in good quality.
+              Popular worldwide team game with a ball and goal. Teams of 11 players must score the most goals against their opponents to win. At Bwanabet all soccer tournaments are available for your betting. You will be able to watch LIVE Broadcasts in good quality.
             </p>
           </div>
           <div className={`${styles.card}`}>
@@ -44,7 +44,7 @@ export default function TypesOfSportsBetting() {
           <div className={`${styles.card}`}>
             <h3 className={`${styles.card_title} text-lg font-semibold mb-2`}>Ice Hockey</h3>
             <p className={`${styles.card_content}`}>
-              Hockey is a game on the ice, where teams skate with sticks in their hands and the main task is to score a puck in the opponent’s goal. Hockey matches on 1xbet are filled with interesting odds and you are sure to find interesting opportunities for your bets.
+              Hockey is a game on the ice, where teams skate with sticks in their hands and the main task is to score a puck in the opponent’s goal. Hockey matches on Bwanabet are filled with interesting odds and you are sure to find interesting opportunities for your bets.
             </p>
           </div>
           <div className={`${styles.card}`}>

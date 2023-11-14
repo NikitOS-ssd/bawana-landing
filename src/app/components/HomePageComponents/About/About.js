@@ -4,9 +4,9 @@ import Button from "../../Button/Button.client";
 export default function AboutInfoTable() {
   // Массив с данными для таблицы
   const tableData = [
-    { key: 'Name', value: '1xBet' },
+    { key: 'Name', value: 'Bwanabet' },
     { key: 'Founded', value: '2007' },
-    { key: 'Website Address', value: 'https://1xbet.com/' },
+    { key: 'Website Address', value: 'https://Bwanabet.com/' },
     { key: 'Promo Code', value: '1X1WIN' },
     { key: 'Welcome Bonus', value: '+100% up to INR 13,000' },
     { key: 'Services', value: 'Sport Betting, Casino, eSports Betting, Poker, Live Casino, Lotteries' },
@@ -35,7 +35,7 @@ export default function AboutInfoTable() {
       >
         <>
           <p className="mb-6 text-gray-800">
-            1xBet is a reliable bookmaker with a proven reputation with headquarters located in Cyprus. The table below illustrates some additional information about the company:
+            Bwanabet is a reliable bookmaker with a proven reputation with headquarters located in Cyprus. The table below illustrates some additional information about the company:
           </p>
           <div className="overflow-x-auto rounded-xl">
             <table className="w-full rounded-xl border border-white" style={{ borderCollapse: 'separate' }}>

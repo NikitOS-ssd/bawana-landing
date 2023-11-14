@@ -4,9 +4,9 @@ import Button from "../../Button/Button.client";
 export default function Support() {
   // Массив с данными для таблицы
   const tableData = [
-    { key: 'Phone Numbers', value: '1xBet' },
+    { key: 'Phone Numbers', value: 'Bwanabet' },
     { key: 'Email	', value: '2007' },
-    { key: 'Facebook', value: 'https://1xbet.com/' },
+    { key: 'Facebook', value: 'https://Bwanabet.com/' },
     { key: 'Twitter', value: '1X1WIN' },
     { key: 'Instagram	', value: '+100% up to INR 13,000' },
     { key: 'Live Chat', value: 'Sport Betting, Casino, eSports Betting, Poker, Live Casino, Lotteries' },

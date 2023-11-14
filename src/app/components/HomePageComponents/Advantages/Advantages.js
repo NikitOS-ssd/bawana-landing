@@ -23,7 +23,7 @@ export default function Advantages() {
       </div>
 
       <p className="mb-6 text-gray-800">
-        All these factors indicate that you will have a great time choosing 1xbet as your betting and casino platform.
+        All these factors indicate that you will have a great time choosing Bwanabet as your betting and casino platform.
         Everything you need to play for real money will always be at your fingertips
       </p>
       <div className="text-center">

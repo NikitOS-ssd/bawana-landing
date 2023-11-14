@@ -26,7 +26,7 @@ export default function Casino() {
       <div>
         <h3>Live Casino</h3>
         <p className="mb-6 text-gray-800">
-          The Live Casino section of 1xBet features games with real croupiers. There is a collection of live dealer games from more than 50 studios, including industry leaders Ezugi, Pragmatic Play, and Evolution Gaming. The entertainment is sorted into popular, keno, blackjack, others, roulette, new, baccarat, jackpot, poker.
+          The Live Casino section of Bwanabet features games with real croupiers. There is a collection of live dealer games from more than 50 studios, including industry leaders Ezugi, Pragmatic Play, and Evolution Gaming. The entertainment is sorted into popular, keno, blackjack, others, roulette, new, baccarat, jackpot, poker.
         </p>
       </div>
     </Block>

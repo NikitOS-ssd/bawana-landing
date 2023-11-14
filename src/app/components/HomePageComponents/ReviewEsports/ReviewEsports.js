@@ -8,7 +8,7 @@ export default function ReviewEsports() {
       title={'Bwanabet Review Esports'}
     >
       <p className="mb-6 text-gray-800">
-        In Bwanabet eSports are very widely represented: not only popular games like Dota 2, FIFA, CS: GO, LoL but also less-known ones like Call of Duty, Rainbow 6: Siege, and others. In this case, betting is available on both top competition and the less important “Tier 2” tournaments. At 1xbet, bets are available for the outcomes of meetings and totals, individual totals, handicaps, and so on.      </p>
+        In Bwanabet eSports are very widely represented: not only popular games like Dota 2, FIFA, CS: GO, LoL but also less-known ones like Call of Duty, Rainbow 6: Siege, and others. In this case, betting is available on both top competition and the less important “Tier 2” tournaments. At Bwanabet, bets are available for the outcomes of meetings and totals, individual totals, handicaps, and so on.      </p>
       <div className="bg-white shadow-lg rounded-lg p-8 mb-8">
         {/* <h2 className="text-xl font-semibold mb-8 text-gray-800">Welcome Bonus Up</h2> */}
         <div className="grid md:grid-cols-2 gap-4 mb-6 text-gray-800">

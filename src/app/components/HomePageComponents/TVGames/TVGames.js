@@ -5,7 +5,7 @@ export default function TVGames() {
   return (
     <Block title={'Bwanabet Login – TV Games'}>
       <p className="mb-6 text-gray-800">
-        The 1xBet TV games fully justify their name. In other words, these are games broadcast by live presenters. Today, the TV games section is divided into two categories: Lotto Instant Win and Tibet.
+        The Bwanabet TV games fully justify their name. In other words, these are games broadcast by live presenters. Today, the TV games section is divided into two categories: Lotto Instant Win and Tibet.
         The second includes games such as:
       </p>
       <div className="px-10 mb-6">
