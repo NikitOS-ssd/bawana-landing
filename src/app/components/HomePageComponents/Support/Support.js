@@ -40,7 +40,7 @@ export default function Support() {
           </div>
 
           <div className="flex justify-center mt-7">
-            <Button size="big">
+            <Button size="big" url={'https://bwanabet.com/en/auth/signup'}>
               JOIN BWANABET
             </Button>
           </div>

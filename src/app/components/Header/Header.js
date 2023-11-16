@@ -7,11 +7,6 @@ const BWANA_IMAGE = 'https://bwanabet.com/files/webexIconsDesktop/assets/image/h
 
 const Header = () => {
 
-  const openSignupPage = () => {
-    console.log()
-    window.open('https://bwanabet.com/en/auth/signup', '_blank');
-  };
-
   return (
     <header className="flex justify-between items-center py-4 px-12" style={{ backgroundColor: '#15191f' }}>
       <div className="w-72">
@@ -19,7 +14,7 @@ const Header = () => {
       </div>
 
       <div>
-        <Button onClick={openSignupPage} size="middle">
+        <Button url={'https://bwanabet.com/en/auth/signup'} size="middle">
           Register
         </Button>
       </div>

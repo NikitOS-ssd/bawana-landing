@@ -48,7 +48,7 @@ export default function AboutInfoTable() {
             What is the secret of success? It was influenced by: reliability, a guarantee of payments, high odds, low margin, a large selection of events, making it possible to bet on thousands of matches, a bonus program, and that’s not all. The site is user-friendly. In this article, we will look in detail at the company and its advantages.
           </p>
           <div className="flex justify-center">
-            <Button size="big">
+            <Button size="big" url={'https://bwanabet.com/en/auth/signup'}>
               JOIN BWANABET
             </Button>
           </div>

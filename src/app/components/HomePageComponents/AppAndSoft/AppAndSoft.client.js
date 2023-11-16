@@ -1,7 +1,26 @@
+'use client'
+
+import { useEffect, useState } from "react";
 import Block from "../../Block/Block";
 import Button from "../../Button/Button.client";
 
 export default function AppAndSoft() {
+  const [buttonUrl, setButtonUrl] = useState(null);
+
+  useEffect(() => {
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    if (/android/i.test(userAgent)) {
+      setButtonUrl('https://play.google.com/store/apps/details?id=example');
+    }
+    else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+      setButtonUrl('https://apps.apple.com/app/idexample');
+    }
+    else if (/Win|Mac|Linux/.test(userAgent)) {
+      setButtonUrl('https://bwanabet.com/en/auth/signup');
+    }
+  }, []);
+
   return (
     <Block title={`in Bwanabet com Applications and Software`}>
       <p className="mb-6 text-gray-800">
@@ -34,7 +53,7 @@ export default function AppAndSoft() {
       </p>
 
       <div className="text-center">
-        <Button size={"big"}>
+        <Button size={"big"} url={buttonUrl}>
           DOWNLOAD APP
         </Button>
       </div>

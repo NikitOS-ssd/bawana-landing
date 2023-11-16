@@ -37,7 +37,7 @@ export default function ReviewEsports() {
           </div>
         </div>
         <div className="text-center">
-          <Button size={"big"}>
+          <Button size={"big"} url={'https://bwanabet.com/en/auth/signup'}>
             BET NOW
           </Button>
         </div>

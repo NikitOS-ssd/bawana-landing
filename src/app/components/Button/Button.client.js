@@ -3,7 +3,7 @@
 import React from 'react';
 import styles from './Button.module.css';
 
-const Button = ({ onClick, size, children }) => {
+const Button = ({ onClick, size, children, url }) => {
   const getSizeClass = (size) => {
     switch (size) {
       case 'small':
@@ -17,9 +17,19 @@ const Button = ({ onClick, size, children }) => {
     }
   };
 
+  const handleClick = (event) => {
+    if (url) {
+      window.open(url, '_blank');
+    }
+
+    if (onClick) {
+      onClick(event);
+    }
+  };
+
   return (
     <button
-      onClick={onClick}
+      onClick={handleClick}
       className={`${styles.button} ${getSizeClass(size)}`}
     >
       {children}

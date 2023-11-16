@@ -27,7 +27,7 @@ export default function Advantages() {
         Everything you need to play for real money will always be at your fingertips
       </p>
       <div className="text-center">
-        <Button size={'big'}>
+        <Button size={'big'} url={'https://bwanabet.com/en/auth/signup'}>
           JOIN BWANABET
         </Button>
       </div>
