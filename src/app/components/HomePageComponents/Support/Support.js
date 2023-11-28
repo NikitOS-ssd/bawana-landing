@@ -1,5 +1,5 @@
-import Block from "../../Block/Block";
-import Button from "../../Button/Button.client";
+import Block from "../../Block/Block"
+import Button from "../../Button/Button.client"
 
 export default function Support() {
   // Массив с данными для таблицы
@@ -10,7 +10,7 @@ export default function Support() {
     { key: 'Twitter', value: '1X1WIN' },
     { key: 'Instagram	', value: '+100% up to INR 13,000' },
     { key: 'Live Chat', value: 'Sport Betting, Casino, eSports Betting, Poker, Live Casino, Lotteries' },
-  ];
+  ]
 
   // Функция для рендеринга строки таблицы
   const renderTableRow = (data, index) => (
@@ -18,7 +18,7 @@ export default function Support() {
       <td className="p-2 text-gray-800">{data.key}</td>
       <td className="p-2 text-gray-800">{data.value}</td>
     </tr>
-  );
+  )
 
   return (
     <>
@@ -32,7 +32,7 @@ export default function Support() {
             For the manager to correctly understand the client’s problem, it is necessary to describe the issue and attach screenshots. No player’s problem will remain unanswered.
           </p>
           <div className="overflow-x-auto rounded-xl">
-            <table className="w-full rounded-xl border border-white" style={{ borderCollapse: 'separate' }}>
+            <table className="w-full rounded-xl border" style={{ borderCollapse: 'separate', borderColor: 'rgba(255, 255, 255, 0.4)' }}>
               <tbody>
                 {tableData.map(renderTableRow)}
               </tbody>
@@ -47,5 +47,5 @@ export default function Support() {
         </>
       </Block>
     </>
-  );
+  )
 }

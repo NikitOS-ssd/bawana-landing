@@ -1,5 +1,5 @@
-import Block from "../../Block/Block";
-import Button from "../../Button/Button.client";
+import Block from "../../Block/Block"
+import Button from "../../Button/Button.client"
 
 export default function AboutInfoTable() {
   // Массив с данными для таблицы
@@ -18,7 +18,7 @@ export default function AboutInfoTable() {
     { key: 'Minimum Deposit', value: 'INR 100' },
     { key: 'Minimum Withdrawal', value: 'INR 300' },
     { key: 'Withdrawal Time', value: 'From 3 Hours' }
-  ];
+  ]
 
   // Функция для рендеринга строки таблицы
   const renderTableRow = (data, index) => (
@@ -26,7 +26,7 @@ export default function AboutInfoTable() {
       <td className="p-2 text-gray-800">{data.key}</td>
       <td className="p-2 text-gray-800">{data.value}</td>
     </tr>
-  );
+  )
 
   return (
     <>
@@ -38,7 +38,7 @@ export default function AboutInfoTable() {
             Bwanabet is a reliable bookmaker with a proven reputation with headquarters located in Cyprus. The table below illustrates some additional information about the company:
           </p>
           <div className="overflow-x-auto rounded-xl">
-            <table className="w-full rounded-xl border border-white" style={{ borderCollapse: 'separate' }}>
+            <table className="w-full rounded-xl border" style={{ borderCollapse: 'separate', borderColor: 'rgba(255, 255, 255, 0.4)' }}>
               <tbody>
                 {tableData.map(renderTableRow)}
               </tbody>
@@ -55,5 +55,5 @@ export default function AboutInfoTable() {
         </>
       </Block>
     </>
-  );
+  )
 }
